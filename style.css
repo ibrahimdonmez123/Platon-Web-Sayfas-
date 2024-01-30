@@ -1,0 +1,195 @@
+/* Global styles */
+body {
+    background-color: #f6f6f6;
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  a {
+    color: #0077be;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0.5em 0;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin: 1.5em 0 0.5em;
+  }
+  
+  p {
+    line-height: 1.5em;
+    margin: 0 0 1.5em;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #0077be;
+    margin-bottom: 1.5em;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    color: #fff;
+    display: block;
+    padding: 1em;
+  }
+  
+  nav a:hover {
+    background-color: #005e91;
+  }
+  
+  nav .active {
+    background-color: #005e91;
+  }
+  
+  /* Homepage styles */
+  .home-intro {
+    background-color: #f6f6f6;
+    padding: 2em;
+    text-align: center;
+  }
+  
+  .home-intro h2 {
+    color: #0077be;
+    font-size: 2.5em;
+    margin-top: 0;
+  }
+  
+  .home-intro p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+  
+  .home-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3em 0;
+  }
+  
+  .home-features li {
+    background-color: #fff;
+    border-radius: 0.25em;
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
+    margin: 1em;
+    padding: 2em;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .home-features h3 {
+    font-size: 1.5em;
+    margin: 0.5em 0 1em;
+  }
+  
+  .home-features p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .home-features img {
+    margin-bottom: 1em;
+    max-width: 100%;
+  }
+  
+  /* Page styles */
+  .page-intro {
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 2em;
+  }
+  
+  .page-intro h2 {
+    color: #0077be;
+    font-size: 2.5em;
+    margin-top: 0;
+  }
+  
+  .page-intro p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+  
+  .page-content {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 2em;
+  }
+  
+  .page-content h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #000;
+  }
+  
+  .page-content p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  .page-content ul {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  .page-content li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .page-content a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .page-content a:hover {
+    color: #b30000;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .page-content {
+      max-width: 768px;
+      margin: 0 auto;
+    }
+  }
+   
+  
